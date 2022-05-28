@@ -5,9 +5,7 @@ import plotly.express as px
 
 st.title("Fruits Classifier")
 
-st.write("""
-<b>Ushubu model bir nechta mevalarni, xususan Olma, anor, banan, limon, apelsin va Qulupnayni taniy oladi</b>
-""")
+st.write("Ushubu model bir nechta mevalarni, xususan Olma, anor, banan, limon, apelsin va Qulupnayni taniy oladi")
 file = st.file_uploader("Rasm yuklash", type=["jpg", "png", "jpeg", "ljpg", 'fjpg'])
 
 if file:
