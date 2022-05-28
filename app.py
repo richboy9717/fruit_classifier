@@ -5,7 +5,9 @@ import plotly.express as px
 
 st.title("Fruits Classifier")
 
-st.title("Ushubu model bir nechta mevalarni, xususan Olma, anor, banan, limon, apelsin va Qulupnayni taniy oladi")
+st.write("Ushubu model bir nechta mevalarni, xususan Olma, anor, banan, limon, apelsin va Qulupnayni taniy oladi")
+
+st.title("⬇️ O'zingiz sinab ko'ring ⬇️")
 file = st.file_uploader("Rasm yuklash", type=["jpg", "png", "jpeg", "ljpg", 'fjpg'])
 
 if file:
@@ -20,7 +22,7 @@ if file:
     pred, pred_id, probs = model.predict(img)
 
 
-    st.success(f'Bashorat: {pred}')
+    st.success(f'Bashorat: {pred} ✅')
     st.info(f'Extimolligi: {probs[pred_id]}')
 
     # plot
