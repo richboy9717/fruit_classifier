@@ -3,7 +3,7 @@ import streamlit as st
 from fastai.vision.all import *
 import pathlib
 import plotly.express as px
-import tkinter as Tk
+from tkinter import *
 
 st.title("Fruits Classifier")
 file = st.file_uploader("Rasm yuklash", type=["jpg", "png", "jpeg", "ljpg", 'fjpg'])
