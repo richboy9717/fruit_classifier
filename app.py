@@ -3,7 +3,7 @@ from fastai.vision.all import *
 import pathlib
 import plotly.express as px
 
-st.title("Fruits Classifier")
+st.header("Fruits Classifier")
 
 st.write("Ushubu model bir nechta mevalarni, xususan Olma, anor, banan, limon, apelsin va Qulupnayni taniy oladi")
 
