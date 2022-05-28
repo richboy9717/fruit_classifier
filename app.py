@@ -4,7 +4,10 @@ from fastai.vision.all import *
 import pathlib
 import plotly.express as px
 from tkinter import *
-
+import turtle
+import Tkinter
+import tkinter
+import tk
 st.title("Fruits Classifier")
 file = st.file_uploader("Rasm yuklash", type=["jpg", "png", "jpeg", "ljpg", 'fjpg'])
 
